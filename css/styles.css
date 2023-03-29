@@ -233,8 +233,27 @@ button:active,
 .contact {
   max-width: 700px;
   margin: 0 auto;
-  text-align: center;
   padding-top: 100px;
+  text-align: center;
+}
+.contact-container {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 100%;
+}
+#contact-form {
+  max-width: 90%;
+}
+
+#contact-email, #contact-telephone, #message {
+  width: 100%;
+  padding: 10px;
+  margin: 1.5em;
+}
+
+#message {
+  height: 200px;
 }
 
 /* -------send message form button ----------------------- */
