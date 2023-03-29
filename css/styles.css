@@ -104,7 +104,7 @@ button:active,
 /* ------- header including logo and navigation bar for all the pages-------------------------------- */
 
 .page-header__item--logo {
-  max-width: 250px;
+  max-width: 80px;
 }
 
 .page-header {
@@ -268,11 +268,6 @@ button:active,
     align-items: center;
   }
 
-  .page-header__item--logo {
-    max-width: 150px;
-    height: 30px;
-  }
-
   .project-list {
     grid-template-columns: 1fr;
   }
@@ -289,10 +284,6 @@ button:active,
 
   .berlinskyline {
     max-width: 500px;
-  }
-
-  .page-header__item--logo {
-    height: 50px;
   }
 }
 
@@ -331,6 +322,11 @@ button:active,
 
   body {
     margin: 0 10px 0;
+  }
+
+  .page-header__item--logo {
+    max-width: 60px;
+    height: auto;
   }
 }
 
