@@ -65,6 +65,7 @@ a:hover,
 a:focus {
   color: var(--link-hover-color);
   text-decoration: underline;
+  transform: scale(1.5);
 }
 
 a:active {
