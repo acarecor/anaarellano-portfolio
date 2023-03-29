@@ -302,6 +302,7 @@ button:active {
 }
 #contact-form {
   max-width: 90%;
+  text-align: left;
 }
 
 #contact-email, #contact-telephone, #message {
