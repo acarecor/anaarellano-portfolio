@@ -167,6 +167,11 @@ button:active,
   margin-top: 150px;
 }
 
+.social-media__item:hover,
+.social-media__item:focus {
+  text-decoration: none;
+}
+
 /* ------Here starts About me page --------------------------------- */
 
 .about {
