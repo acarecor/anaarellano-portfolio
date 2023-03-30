@@ -2,13 +2,12 @@
 :root {
   --background-color: rgb(246, 246, 246);
   --font-color: rgb(34, 48, 66);
-  --link-primary-color: #10683c;
-  --link-secondary-color: #911e78;
+  --link-primary-color: #911e78;
   --link-hover-color: #0f3fae;
   --link-active-color: #63060e;
   --button-font-color: #fff;
   --button-background-color: #25355c;
-  --button-color-active: #49a853;
+  --button-color-active: #3b6d40;
   --border-button: 2px solid rgba(0, 0, 0, 0.3);
   --button-padding: 10px 20px;
   --project-background-color: #b7c4c8;
@@ -57,15 +56,11 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: var(--link-secondary-color);
-}
-
 a:hover,
 a:focus {
   color: var(--link-hover-color);
-  text-decoration: underline;
-  transform: scale(1.5);
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 a:active {
@@ -141,6 +136,7 @@ button:active,
   text-decoration: underline;
   padding-right: 20px;
 }
+
 
 /* ------profile index -------------------------------------------- */
 
