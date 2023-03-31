@@ -300,7 +300,8 @@ button:active,
   }
 
   .berlinskyline {
-    max-width: 370px;
+    max-width: 300px;
+    height: auto;
   }
 }
 
@@ -311,6 +312,7 @@ button:active,
 
   .berlinskyline {
     max-width: 500px;
+    height: auto;
   }
 }
 
