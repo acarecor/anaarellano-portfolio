@@ -243,6 +243,7 @@ button:active,
   margin: 0 auto;
   padding: 2em;
   max-width: 100%;
+  box-shadow: var(--project-box-shadow);
 }
 #contact-form {
   max-width: 90%;

@@ -308,6 +308,8 @@ button:active {
 }
 .contact-container {
   background-color: #fff;
+  -webkit-box-shadow: 4px 3px 3px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 3px 3px 0 rgba(0, 0, 0, 0.3);
   margin: 0 auto;
   padding: 2em;
   max-width: 100%;
