@@ -189,6 +189,10 @@ button:active,
   color: var(--button-font-color);
 }
 
+.graphcredits{
+  font-size: 10px;
+}
+
 /* ------Here starts My work page ----------------------------------- */
 
 /* ------start grid fallback----------------- */
